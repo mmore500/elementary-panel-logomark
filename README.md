@@ -16,6 +16,8 @@ Download one of the following logos by pasting the corresponding command into th
 
 Most users should choose 20px; larger versions are for displays that have been "zoomed in" with `scaling-factor`. (Check this factor with `gsettings get org.gnome.desktop.interface scaling-factor | sed 's/.* //'`; the default, unzoomed value is `1`.)
 
+Note: an inverse 20px elementary logo is available in the `logos/inverse-20px` directory of this repository.
+
 ### step 2 - replace "Applications" text with logo
 
 Paste the following block of code in the terminal:
